@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context="com.example.dell.idrive.RegisterActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:id="@+id/reg"
+            android:text="Registration"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/endGradient"
+            android:textColor="#626567"
+            android:layout_gravity="center"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:textColor="#626567"
+            android:backgroundTint="@color/endGradient"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/name"
+            android:hint="Name"
+            android:textColor="#626567"
+            android:backgroundTint="@color/endGradient"
+
+            android:inputType="textPersonName"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Age"
+            android:id="@+id/age"
+            android:backgroundTint="@color/endGradient"
+            android:textColor="#626567"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:hint="Linkdin*"
+            android:id="@+id/linkdin"
+            android:backgroundTint="@color/endGradient"
+            android:textColor="#626567"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/editTextColor"
+            android:text="Interests"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/editTextColor"
+                android:id="@+id/male"
+
+                android:textSize="15dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="TIC"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Economy"
+                android:id="@+id/female"
+                android:textSize="15dp"
+                android:textColor="@color/editTextColor"
+                android:backgroundTint="@color/colorPrimary"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Social"
+                android:id="@+id/social"
+                android:textSize="15dp"
+                android:textColor="@color/editTextColor"
+                android:backgroundTint="@color/colorPrimary"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Health"
+                android:id="@+id/health"
+                android:textSize="15dp"
+                android:textColor="@color/editTextColor"
+                android:backgroundTint="@color/colorPrimary"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Content with asterixes are facultatif"
+
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Done"
+            android:background="@drawable/shape"
+            android:id="@+id/done"
+            android:textColor="#ffffff"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

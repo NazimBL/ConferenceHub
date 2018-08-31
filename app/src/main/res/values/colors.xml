@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8E44AD</color>
+    <color name="colorPrimaryDark">#8E44AD</color>
+    <color name="colorAccent">#8E44AD</color>
+    <color name="endGradient">#D2B4DE</color>
+    <color name="home">#3DA475</color>
+
+    <color name="reminder">#D7BDE2</color>
+    <color name="call">#AAB1D7</color>
+
+
+
+    <color name="editTextColor">#7F8C8D</color>
+</resources>

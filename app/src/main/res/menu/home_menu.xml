@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:icon="@android:drawable/ic_menu_agenda"
+    app:showAsAction="always"
+    android:id="@+id/profile_menu"
+    android:title="Profile"
+    ></item>
+    <item
+        android:icon="@android:drawable/ic_menu_zoom"
+        app:showAsAction="always"
+        android:id="@+id/add_menu"
+        android:title="Add"
+        ></item>
+
+
+</menu>

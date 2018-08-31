@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.conferencehub.MainActivity">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/email"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/endGradient"
+        style="@style/Base.V7.Widget.AppCompat.EditText"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress"
+        android:hint="email"
+        android:textColor="#626567"
+
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/password"
+        android:hint="password"
+        style="@style/Base.V7.Widget.AppCompat.EditText"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:textColor="#626567"
+        android:backgroundTint="@color/endGradient"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:text="Sign In"
+        android:layout_marginTop="5dp"
+        android:id="@+id/login_id"
+        android:textSize="20dp"
+        style="@android:style/Widget.Button.Inset"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:text="Login With Facebook"
+        android:layout_marginTop="5dp"
+        android:id="@+id/fb_id"
+        style="@android:style/Widget.Button.Inset"
+        android:textSize="20dp"
+        android:background="@drawable/shape"
+        android:textColor="#ffffff"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:paddingRight="40dp"
+
+        android:layout_gravity="right"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="New here ? "
+            android:id="@+id/new_here"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#7F8C8D"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/sign_up"
+            android:textColor="#000000"
+            android:clickable="true"
+            android:elevation="8dp"
+            android:textSize="15dp"
+
+            />
+
+    </LinearLayout>
+</LinearLayout>
